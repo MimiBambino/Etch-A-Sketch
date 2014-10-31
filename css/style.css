@@ -1,0 +1,26 @@
+.box {
+	height: 100%;
+	width: 100%;
+}
+
+#main {
+	height: 500px;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.square {
+	display: inline-block;
+	background-color: gray;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#instructions {
+	height: 65px;
+}
+
+button {
+	top: 10px;
+}
