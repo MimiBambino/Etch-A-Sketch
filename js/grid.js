@@ -1,4 +1,5 @@
-// Create initial canvas to draw on.
+// Create initial canvas to draw on. 
+
 var drawCanvas = function(number){
 	var size = 500 / number;
 	for (var i = 1; i <= number * number; i++){
@@ -18,7 +19,9 @@ drawCanvas(16);
 
 $("button").on("click", function(){
 	$(".square").css("background-color", "gray");
-	var columns = prompt("How many columns do you want in your canvas?");
+	var columns = prompt("How many pixels do you want in your canvas: Choose between 1 and 100.");
 	$(".square").remove();
 	drawCanvas(columns);
 });
+
+// TODO: Create a popup form with the options from choices and add to event listener
